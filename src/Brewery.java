@@ -12,5 +12,15 @@ public class Brewery {
         beer2.voltage = 4.9;
         beer2.amount = 500;
 
+        System.out.println("Nazwa piwa: " + beer1.name);
+        System.out.println("Rodzaj: " + beer1.type);
+        System.out.println("Woltaż: " + beer1.voltage);
+        System.out.println("Objętość: " + beer1.amount);
+        
+        System.out.println("Nazwa piwa: " + beer2.name);
+        System.out.println("Rodzaj: " + beer2.type);
+        System.out.println("Woltaż: " + beer2.voltage);
+        System.out.println("Objętość: " + beer2.amount);
+
     }
 }
